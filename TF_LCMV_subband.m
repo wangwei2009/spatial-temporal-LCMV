@@ -24,9 +24,9 @@ shift = cfg.N;
 ya = zeros(size(band_data{1}));
 for k = 1:band_num/2+1
     
-    K = 7;
+    K = M;
     N = K;
-    Lh = 3;
+    Lh = 2;
 
     Wo = zeros(N*Lh,Lh);
     
